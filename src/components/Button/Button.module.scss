@@ -11,23 +11,29 @@
   background-color: var(--white);
   border: 1px solid transparent;
 
-  + .wrapper{
+  + .wrapper {
     margin-left: 8px;
   }
-  &.disable{
+  &.disable {
     opacity: 0.5;
     pointer-events: none;
   }
 }
 
-.icon + .title, .title + .icon{
-    margin-left: 8px;
+.icon + .title,
+.title + .icon {
+  margin-left: 8px;
 }
 
-.text{
-    &:hover{
-        text-decoration: underline;
-    }
+.icon {
+  display: inline-block;
+  width: 20px;
+}
+
+.text {
+  &:hover {
+    text-decoration: underline;
+  }
 }
 
 .primary {
@@ -39,8 +45,8 @@
   }
 }
 
-.rounded{
-    border-radius: 999px;
+.rounded {
+  border-radius: 999px;
 }
 
 .outline {
@@ -52,13 +58,12 @@
   }
 }
 
-.small{
-    min-width: 88px;
-    padding: 4px 16px;
+.small {
+  min-width: 88px;
+  padding: 4px 16px;
 }
 
-.large{
-    min-width: 140px;
-    padding: 14px 16px;
-
+.large {
+  min-width: 140px;
+  padding: 14px 16px;
 }
